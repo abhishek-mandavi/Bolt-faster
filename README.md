@@ -27,16 +27,12 @@ Prerequisites
 
 Make sure you have Node.js and npm/yarn installed.
 
-Installation
+###Installation
 
-Clone the repository:
 
-git clone https://github.com/yourusername/bolt.new.git
-cd bolt.new
+**Install dependencies**:
 
-Install dependencies:
-
-npm install  # or yarn install
+npm install  
 
 Set up environment variables:
 
@@ -44,16 +40,16 @@ Create a .env file in the root directory
 
 Add your OpenAI API key:
 
-REACT_APP_OPENAI_API_KEY=your_openai_api_key
+OPENAI_API_KEY=your_openai_api_key
 
 Start the development server:
 
-npm run dev  # or yarn dev
+npm run dev  
 
 Deployment
 
 To deploy the project, use Vercel or Netlify:
 
-npm run build  # or yarn build
+npm run build  
 
 Then follow the deployment instructions for your preferred hosting provider.
